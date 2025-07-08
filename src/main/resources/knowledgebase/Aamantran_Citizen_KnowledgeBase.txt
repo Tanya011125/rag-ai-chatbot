@@ -1,0 +1,51 @@
+
+Aamantran Citizen Portal - Knowledge Base Summary
+
+Purpose:
+This portal enables citizens to request invites for national ceremonial events such as Republic Day and Independence Day celebrations.
+
+Key Functionalities:
+
+1. Citizen Registration:
+- Register using Aadhaar, PAN, or Passport.
+- Provide name, mobile number, email ID, and residential address.
+- Login is enabled only after email verification.
+
+2. Dashboard:
+- Access all available event booking modules.
+- View ongoing or upcoming national events.
+
+3. Guest Management:
+- Add and manage guests by providing their photo, name, relation, and valid ID (Aadhaar/PAN/Passport).
+- Required for bulk booking or family participation.
+
+4. Request for Invite:
+- Book tickets for events like Republic Day or Independence Day Parade.
+- Select guest(s), ticket type (paid/free), event, location, and number of tickets.
+- Upload photo ID and complete necessary declarations.
+
+5. Invite History:
+- View and track all previous invite requests with their statuses.
+
+6. Payment:
+- Payment is needed for paid tickets.
+- Payment methods include UPI, debit card, credit card, or net banking.
+- E-receipt is generated after successful payment.
+
+7. Download:
+- Users can download e-invites, booking history, and receipts.
+- QR code-based e-ticket is provided for entry.
+
+Important Notes:
+- Each citizen must provide valid identification proof.
+- Citizens should complete registration and verification before booking.
+- Invitations are subject to approval by concerned authorities.
+
+Frequently Asked Use Cases:
+- “How to add a guest?”
+- “What ID proofs are accepted?”
+- “How to cancel or track invite requests?”
+- “How to make payment for a ticket?”
+- “How to download the invite?”
+
+
