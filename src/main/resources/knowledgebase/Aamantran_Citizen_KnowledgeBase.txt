@@ -2,7 +2,7 @@
 Aamantran Citizen Portal - Knowledge Base Summary
 
 Purpose:
-This portal enables citizens to request invites for national ceremonial events such as Republic Day and Independence Day celebrations.
+Aamantran Citizen ticket booking portal enables citizens to request invites for national ceremonial events such as Republic Day and Independence Day celebrations.
 
 Key Functionalities:
 
@@ -36,16 +36,15 @@ Key Functionalities:
 - Users can download e-invites, booking history, and receipts.
 - QR code-based e-ticket is provided for entry.
 
+8. Ticket Policy:
+-Once a ticket is booked, it cannot be cancelled and it is not transferable.
+
 Important Notes:
 - Each citizen must provide valid identification proof.
 - Citizens should complete registration and verification before booking.
 - Invitations are subject to approval by concerned authorities.
 
-Frequently Asked Use Cases:
-- “How to add a guest?”
-- “What ID proofs are accepted?”
-- “How to cancel or track invite requests?”
-- “How to make payment for a ticket?”
-- “How to download the invite?”
+
+
 
 

@@ -1,20 +1,21 @@
 package com.example.ai.controller;
 
 import com.example.ai.model.MessageRequest;
-import org.springframework.ai.ollama.OllamaChatModel;
+import com.example.ai.service.RagService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/chat")
 public class ChatController {
 
     @Autowired
-    private OllamaChatModel chatModel;
+    private RagService ragService;
 
     @PostMapping
     public String chat(@RequestBody MessageRequest messageRequest) {
-        return chatModel.call(messageRequest.getMessage());
+        return ragService.askQuestion(messageRequest.getMessage());
     }
 }
 
