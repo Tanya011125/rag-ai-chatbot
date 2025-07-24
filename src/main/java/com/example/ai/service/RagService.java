@@ -22,11 +22,25 @@ public class RagService {
 
     public String askQuestion(String question) {
         try{
+        String lowerMessage = question.toLowerCase();
+
+        if (lowerMessage.contains("hello") || lowerMessage.contains("hi")) {
+            return "Hello! How can I assist you today?";
+        } else if (lowerMessage.contains("thank you") || lowerMessage.contains("thanks")) {
+            return "You're welcome! Let me know if you need anything else.";
+        } else if (lowerMessage.contains("bye") || lowerMessage.contains("goodbye")) {
+            return "Goodbye! Have a great day!";
+        }
+
         // Step 1: Embed the user question
         float[] questionEmbedding = embeddingModel.embed(List.of(question)).get(0);
 
         // Step 2: Search for relevant documents
         List<String> relevantChunks = simpleStore.search(questionEmbedding, 3);
+
+        if (relevantChunks == null || relevantChunks.isEmpty()) {
+            return "I'm sorry, I couldn't find anything in the knowledge base to answer that. Please ask about the Aamantran Citizen Portal.";
+        }
 
         // Step 3: Build prompt
         StringBuilder prompt = new StringBuilder("Answer based on the following context:\n\n");
